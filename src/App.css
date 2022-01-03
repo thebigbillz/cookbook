@@ -14,14 +14,22 @@
 .search-bar {
   width: 50%;
   border: none;
-  padding: 12px;
+  padding: 15px;
+}
+
+.search-bar:focus {
+  outline: none;
 }
 
 .search-button {
-  background: rgb(37, 37, 37);
+  background: rgb(39, 39, 39);
   border: none;
   color: white;
-  padding: 12px;
+  padding: 15px 25px;
+}
+
+.search-button:hover {
+  cursor: pointer;
 }
 
 .recipes {
@@ -63,4 +71,5 @@
 
 h3 {
   margin-bottom: 5px;
+  text-align: center;
 }
